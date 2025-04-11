@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    background-color:antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color:black;
+    margin: 0px;
+    
+}
+
+.box{
+    margin: 0;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    background-color:#82C8E5;
+
+}
+.game {
+    height: 230px;
+    width: 220px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game img {
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.game:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+.text{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:230px;
+    font-size: 30px;
+    color:red;
+
+}
+
+.Game-text{
+    text-align: center;
+    font-size: 25px;
+    font: 700;
+}
+.choice{
+    height: 100px;
+    width: 100%;
+    font-size:25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.score_board{
+    height: 100px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    font-weight: 700;
+    font-size: 30px;
+}
+#user_score{
+    margin-left: 20px;
+}
+#computer_score{
+    margin-left: 60px;
+}
+
+.msg {
+    margin-top: 30px;
+    text-align: center; /* Centers text */
+}
+
+#ins-msg {
+    display: inline-block; /* Makes the background wrap only around the text */
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
